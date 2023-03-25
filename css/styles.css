@@ -1,0 +1,830 @@
+/* CSS Document */
+html{
+  background-color: #4b4b4b;
+}
+.portfoliostuff{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+body{
+  position: relative;
+}
+em{
+  font-style: italic;
+}
+header a{
+  text-decoration: none;
+}
+header{
+  background-color: #4b4b4b;
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul a{
+  color: #41B6E6;
+}
+ul a:hover{
+  color: #9600FF;
+}
+ul li{
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+ul li:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 3%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0 0 5% 0;
+  color: #9600FF;
+  text-shadow: 3px 2px black;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #FFF;
+  margin-top: 2%;
+}
+.about p{
+  line-height: 25px;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #41B6E6;
+}
+h3{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 3% 0 5% 0;
+  color: #FFF;
+}
+h4{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 3% 0 3% 0;
+  color: #9600FF;
+  text-shadow: 3px 2px black;
+}
+h5{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #41B6E6;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+h6{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #41B6E6;
+  text-align: center;
+  margin-bottom: 4%;
+}
+footer{
+  margin-top: 5%;
+}
+.endnote{
+  text-align: center;
+}
+.endnote p{
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+.image-headerblue{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #41B6E6;
+  margin-bottom: 3%;
+}
+.image-headerpurple{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #9600FF;
+  margin-bottom: 3%;
+}
+.image-subheader{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #FFF;
+}
+#hamburger-icon{
+  margin: auto 0;
+  visibility: visible;
+  cursor: pointer;
+}
+#hamburger-icon div{
+  width: 35px;
+  height: 3px;
+  background-color: #FFF;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.open .bar1{
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+.open .bar2{
+  opacity: 0;
+}
+.open .bar3{
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+.open .mobile-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10%;
+  background-color: #4b4b4b;
+}
+.mobile-menu{
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 30vh;
+  width: 100%;
+  margin-bottom: 20%;
+  background-color: #4b4b4b;
+}
+.mobile-menu li{
+  margin-bottom: 10px;
+}
+.mobile-menu ul{
+  margin-bottom: 10%;
+}
+.mobile-menu li:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.mobile-menu ul a:hover{
+  color: #41B6E6;
+}
+.About{
+  background-color: #818181;
+  padding: 3%;
+  margin-bottom: 5%;
+}
+.Resume{
+  background-color: #818181;
+  padding: 4%;
+  margin-bottom: 5%;
+  margin-top: 4%;
+}
+.portfolioimages{
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.projects{
+  background-color: #818181;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.nikonflat{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+.nikonmockup{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+}
+.elgatoflat{
+  max-width: 90%;
+  margin-bottom: 3%;
+}
+.boxmockup{
+  max-width: 90%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+.front{
+  max-width: 90%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+.back{
+  max-width: 90%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+.elgatomockup{
+  max-width: 90%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+.elgatomockup2{
+  max-width: 90%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+.mediaflat{
+  max-width: 90%;
+  margin-left: -8%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.mediamockup{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.letterflat{
+  max-width: 90%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.stationerymockup{
+  max-width: 90%;
+  margin-left: 6%;
+}
+.manualflat{
+  max-width: 90%;
+  margin-left: 6%;
+}
+.manualmockup{
+  max-width: 90%;
+  margin-left: 6%;
+  margin-bottom: 5%;
+}
+.promotionflat{
+  max-width: 90%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+.promotionmockup{
+  max-width: 90%;
+  margin-left: 6%;
+  margin-bottom: 5%;
+}
+.gatefoldflat{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.gatefoldflat2{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.gatefoldmockup{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.posterflat{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.postermockup{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.shirtflat{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.shirtmockup{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.brochureflat{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.brochuremockup{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.menuflat{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.menumockup{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.postcard1{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.postcard1back{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.postcard2{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.postcard2back{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.newsletter1{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.newsletter2{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.newsletter3{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.hoodie{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.shirtdesigntrax{
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.button{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background-color: #41B6E6;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.button:hover{
+  background-color: #9600FF;
+}
+.button__icon, .button__text{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+.button__icon{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+@media screen and (min-width: 300px){
+  .topnav{
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 600px){
+  .portfoliomockups{
+  width: 90%;
+  }
+  .portfolio-container{
+  line-height: 30px;
+  column-gap: 0;
+  column-count: 2;
+  margin-bottom: 10%;
+  }
+  .topnav{
+    visibility: visible;
+    margin-top: 3%;
+  }
+  ul li{
+    font-size: 30px;
+    margin-left: 8%;
+  }
+  ul li:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+  #hamburger-icon{
+    visibility: hidden;
+  }
+  .logo{
+    max-width: 1000px;
+    margin-top: 2%;
+  }
+  .nikonflat{
+    max-width: 500px;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+  }
+  .nikonmockup{
+    max-width: 500px;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+  }
+  .elgatoflat{
+    max-width: 500px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+  .boxmockup{
+    max-width: 500px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .front{
+    max-width: 500px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .back{
+    max-width: 500px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+  .elgatomockup{
+    max-width: 500px;
+    margin-bottom: 3%;
+    margin-left: 6%;
+  }
+  .elgatomockup2{
+    max-width: 500px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+  .mediaflat{
+    max-width: 500px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .mediamockup{
+    max-width: 500px;
+    margin-bottom: 5%;
+  }
+  .letterflat{
+    max-width: 500px;
+    margin-top: 2%;
+  }
+  .stationerymockup{
+    max-width: 500px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .manualflat{
+    max-width: 500px;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+  .manualmockup{
+    max-width: 500px;
+    margin-left: 9%;
+    margin-bottom: 5%;
+  }
+  .promotionflat{
+    max-width: 500px;
+    margin-bottom: 5%;
+  }
+  .promotionmockup{
+    max-width: 500px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (min-width: 1200px){
+  p{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 35px
+  }
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 35px;
+  }
+  h5{
+    font-size: 35px;
+  }
+  h6{
+
+  }
+  .nikonflat{
+    max-width: 1000px;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+  }
+  .nikonmockup{
+    max-width: 1000px;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+  }
+  .elgatoflat{
+    max-width: 1000px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+  .boxmockup{
+    max-width: 1000px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .front{
+    max-width: 1000px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .back{
+    max-width: 1000px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+  .elgatomockup{
+    max-width: 1000px;
+    margin-bottom: 3%;
+    margin-left: 6%;
+  }
+  .elgatomockup2{
+    max-width: 1000px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+  .mediaflat{
+    max-width: 1000px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .mediamockup{
+    max-width: 1000px;
+    margin-bottom: 5%;
+  }
+  .letterflat{
+    max-width: 1000px;
+    margin-top: 2%;
+  }
+  .stationerymockup{
+    max-width: 1000px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .manualflat{
+    max-width: 1000px;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+  .manualmockup{
+    max-width: 1000px;
+    margin-left: 9%;
+    margin-bottom: 5%;
+  }
+  .promotionflat{
+    max-width: 1000px;
+    margin-bottom: 5%;
+  }
+  .promotionmockup{
+    max-width: 1000px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (min-width: 1800px){
+  .nikonflat{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+  }
+  .nikonmockup{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+  }
+  .elgatoflat{
+    max-width: 700px;
+    margin-bottom: 3%;
+    margin-left: 7%;
+  }
+  .boxmockup{
+    max-width: 700px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+  .front{
+    max-width: 700px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .back{
+    max-width: 700px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .elgatomockup{
+    max-width: 700px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .elgatomockup2{
+    max-width: 700px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+  }
+  .mediaflat{
+    max-width: 700px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .mediamockup{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .letterflat{
+    max-width: 700px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 6%;
+  }
+  .stationerymockup{
+    max-width: 700px;
+    margin-left: 5%;
+  }
+  .manualflat{
+    max-width: 700px;
+    margin-left: 5%;
+  }
+  .manualmockup{
+    max-width: 700px;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+  .promotionflat{
+    max-width: 700px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+  .promotionmockup{
+    max-width: 700px;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+  .gatefoldflat{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  .gatefoldflat2{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  .gatefoldmockup{
+    max-width: 700px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+  .posterflat{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .postermockup{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .shirtflat{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .shirtmockup{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .brochureflat{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .brochuremockup{
+    max-width: 700px;
+    margin-left: 0.5%;
+    margin-bottom: 5%;
+  }
+  .menuflat{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .menumockup{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .postcard1{
+    max-width: 700px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+  }
+  .postcard1back{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .postcard2{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .postcard2back{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .newsletter1{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .newsletter2{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .newsletter3{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+  }
+  .hoodie{
+    max-width: 700px;
+    margin-left: 7%;
+    margin-bottom: 5%;
+  }
+  .shirtdesigntrax{
+    max-width: 700px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+}
